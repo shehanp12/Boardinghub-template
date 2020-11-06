@@ -6,7 +6,7 @@ import { FaMoon } from "react-icons/fa";
 import NextLink from "next/link";
 
 import { useSocials } from "@/hooks/app";
-import siteConfig from "~/site-config";
+
 
 const Navbar: React.FC = () => {
   const { toggleColorMode } = useColorMode();
@@ -16,7 +16,14 @@ const Navbar: React.FC = () => {
     <HStack as="nav" fontSize="md" p={4} spacing={0}>
       <NextLink href="/">
         <Link color="FF8A00" fontWeight="bold" href="/" p={4} variant="link">
-          {siteConfig.title}
+          <img
+            src="/ab.png"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="Reac"
+          />
+
         </Link>
       </NextLink>
 
@@ -32,9 +39,9 @@ const Navbar: React.FC = () => {
               FoodHub
             </Link>
           </NextLink>
-          <NextLink href="/ContactUs">
-            <Link color="FF8A00" fontWeight="bold" href="/ContactUs" p={4} variant="link">
-              ContactUs
+          <NextLink href="/CampusHub">
+            <Link color="FF8A00" fontWeight="bold" href="/CampusHub" p={4} variant="link">
+              CampusHub
             </Link>
           </NextLink>
 
