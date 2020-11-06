@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { HStack, Icon, IconButton, Link, useColorMode } from "@chakra-ui/core";
+import { Heading, HStack, Icon, IconButton, Link, useColorMode } from "@chakra-ui/core";
 
 import { FaMoon } from "react-icons/fa";
 import NextLink from "next/link";
@@ -30,20 +30,27 @@ const Navbar: React.FC = () => {
       <HStack d={{ base: "none", md: "flex" }} spacing={0}>
         <React.Fragment>
           <NextLink href="/BoardingHub">
-            <Link color="FF8A00" fontWeight="bold" href="/BoardingHub" p={4} variant="link">
+            <Link color="FF8A00" fontWeight="bold" href="/BoardingHub" style={{color:'#FF8A00'}}  p={4} variant="link">
               BoardingHub
             </Link>
           </NextLink>
           <NextLink href="/FoodHub">
-            <Link color="FF8A00" fontWeight="bold" href="/FoodHub" p={4} variant="link">
+            <Link color="FF8A00" fontWeight="bold" href="/FoodHub" p={4}  style={{color:'#FF8A00'}} variant="link">
               FoodHub
             </Link>
           </NextLink>
           <NextLink href="/CampusHub">
-            <Link color="FF8A00" fontWeight="bold" href="/CampusHub" p={4} variant="link">
+            <Link color="FF8A00" fontWeight="bold" href="/CampusHub" p={4}  style={{color:'#FF8A00'}} variant="link">
               CampusHub
             </Link>
           </NextLink>
+          <NextLink href="/ContactUs">
+            <Link color="FF8A00" fontWeight="bold" href="/ContactUs"  style={{color:'#FF8A00'}} p={4} variant="link">
+              ContactUs
+            </Link>
+          </NextLink>
+
+
 
 
 

@@ -9,7 +9,7 @@ const description = descriptionMd
   .trim();
 
 module.exports = {
-  title: "CAMPUSHUB",
+  title: "CAMPUS HUB",
   descriptionMd,
   description,
   url: "https://nextplate.now.sh",
