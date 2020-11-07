@@ -6,11 +6,8 @@ import { NextSeo } from "next-seo";
 
 const UsagePage: NextPage = () => {
   return (
-    <Box p={8}>
-      <NextSeo title="Usage" />
-      BoardingHub
-    </Box>
-  );
+  <p>What is BoardingHub</p>
+  )
 };
 
 export default UsagePage;

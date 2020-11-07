@@ -8,7 +8,7 @@ const EmptyPage: NextPage = () => {
   return (
     // <>
     //   <NextSeo title="Empty" />
-    // </>
+    // </>i
 
     <Box p={8}>
       <NextSeo title="Usage" />

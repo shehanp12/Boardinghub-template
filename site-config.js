@@ -18,6 +18,8 @@ module.exports = {
   socials: {
     GitHub: "https://github.com/shehanp12",
     Twitter: "https://twitter.com/griko_nibras",
+    Facebook:"https://www.facebook.com/shehanprasannap1",
+    Instagram:"https://www.instagram.com/shehanprasa123/?hl=en",
   },
   themeColor: "#F6E05E",
 };

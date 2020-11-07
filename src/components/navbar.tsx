@@ -3,7 +3,8 @@ import * as React from "react";
 import { Heading, HStack, Icon, IconButton, Link, useColorMode } from "@chakra-ui/core";
 
 import { FaMoon } from "react-icons/fa";
-import NextLink from "next/link";
+import NextLink from "next/link"
+import Image from 'next/image'
 
 import { useSocials } from "@/hooks/app";
 
@@ -18,9 +19,6 @@ const Navbar: React.FC = () => {
         <Link color="FF8A00" fontWeight="bold" href="/" p={4} variant="link">
           <img
             src="/ab.png"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
             alt="Reac"
           />
 
