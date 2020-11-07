@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
   const socials = useSocials();
 
   const content = `
-    Made By DracosLab(PVT) LTd
+    Powered By DracosLab(PVT) LTD
   `
     .trim()
     .replace(/\s{3,}/, " ");

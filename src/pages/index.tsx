@@ -1,7 +1,5 @@
 import * as React from "react";
-
-import { Button, Heading, Link, Stack, Wrap } from "@chakra-ui/core";
-
+import { Heading, Stack} from "@chakra-ui/core";
 import Logo from "@/components/logo";
 import type { NextPage } from "next";
 
@@ -12,10 +10,10 @@ const HomePage: NextPage = () => {
     <>
       <img
         src="/bgimage.png"
-        width="100"
-        className="center"
+        height="50"
+        width="400"
         alt="Reac"
-
+        style={{ textAlign: "center" }}
       />
 
 

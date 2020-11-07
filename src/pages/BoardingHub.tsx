@@ -6,7 +6,7 @@ import { NextSeo } from "next-seo";
 
 const UsagePage: NextPage = () => {
   return (
-  <p>What is BoardingHub</p>
+  <p  style={{textAlign:"center"}}>What is BoardingHub</p>
   )
 };
 

@@ -6,14 +6,10 @@ import { Box } from "@chakra-ui/core";
 
 const EmptyPage: NextPage = () => {
   return (
-    // <>
-    //   <NextSeo title="Empty" />
-    // </>i
 
-    <Box p={8}>
-      <NextSeo title="Usage" />
-      CampusHub
-    </Box>
+    <p  style={{textAlign:"center"}}>What is CampusHub</p>
+
+
   );
 };
 
