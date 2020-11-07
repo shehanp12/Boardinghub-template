@@ -15,20 +15,9 @@ const HomePage: NextPage = () => {
         width="100"
         className="center"
         alt="Reac"
+
       />
-      <style jsx>
-        {
-          `
-          .img{
-          display:flex;
-   justify-content:center; 
-   height:300px;
-   width:300px;
-          
-          }
-          `
-        }
-      </style>
+
 
       <Stack alignItems="center" px={8} spacing={4} textAlign="center" w="full">
         <Logo boxSize="full" maxW={48} />
@@ -41,5 +30,7 @@ const HomePage: NextPage = () => {
     </>
   );
 };
+
+
 
 export default HomePage;
